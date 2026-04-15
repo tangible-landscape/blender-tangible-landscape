@@ -1,30 +1,35 @@
 {
-	"folder": "/home/anna/Projects/blender/",
+	"folder": "/home/everetttucker471/IGroup/TL_coupling",
 	"CRS": "3358",
 	"timer": 5,
-	"scale": 1,
+	"treeScale": 50,
+	"treeDensity": 0.0005,
 	"terrain": {
 		"grass_texture_file": "textures/grass_final.jpg",
 		"sides_texture_file": "textures/dirt.jpg"
 	},
-	"trees": {
-		"class4": {
-			"model": "assets/river_birch_tree.blend",
-			"texture": "patch_class4.png"
+	"trees": [
+		{
+			"name": "Tree Asset 1",
+			"model": "assets/tree_1.glb",
+			"texture": "patch_class_1.png"
 		},
-		"class1": {
-			"model": "assets/maple_tree.blend",
-			"texture": "patch_class1.png"
+		{
+			"name": "Tree Asset 2",
+			"model": "assets/tree_2.glb",
+			"texture": "patch_class_2.png"
 		},
-		"class2": {
-			"model": "assets/eastern_white_pine_tree.blend",
-			"texture": "patch_class2.png"
+		{
+			"name": "Tree Asset 3",
+			"model": "assets/tree_3.glb",
+			"texture": "patch_class_3.png"
 		},
-		"class3": {
-			"model": "assets/hornbeam_tree.blend",
-			"texture": "patch_class3.png"
+		{
+			"name": "Tree Asset 4",
+			"model": "assets/tree_4.glb",
+			"texture": "patch_class_4.png"
 		}
-	},
+	],
 	"trail": {
 		"profile": "assets/T_profile.blend",
 		"texture_file": "textures/boardwalk.png"

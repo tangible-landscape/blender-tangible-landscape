@@ -21,9 +21,9 @@ import bpy
 
 bl_info = {
     "name": "Blender for Tangible Landscape",
-    "author": "Payam Tabrizian (ptabriz)",
-    "version": (1, 0),
-    "blender": (2, 83, 0),
+    "author": "Payam Tabrizian (ptabriz), Everett Tucker (eftucker)",
+    "version": (2, 0),
+    "blender": (5, 0, 1),
     "location": "Tools",
     "description": "Real-time 3D modeling with Tangible Landscape",
     "warning": "",
@@ -41,9 +41,8 @@ classes = (
     Modeling3D.ModalTimerOperator,
     Modeling3D.TL_OT_Assets,
     Modeling3D.TL_PT_GUI,
+    Modeling3D.TL_OT_ClearTrees,
     Modeling3D.MessageOperator,
-    Modeling3D.BirdCam,
-    Modeling3D.ClearOperators,
     prefs.TL_OT_PREFS_SHOW,
     prefs.TL_PREFS,
 )
